@@ -1,0 +1,395 @@
+2016-06-04 16:07:23,546 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [StandardServer[-1]] to [STOPPING_PREP]
+2016-06-04 16:07:23,551 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [StandardServer[-1]] to [STOPPING]
+2016-06-04 16:07:23,551 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [StandardService[Tomcat]] to [STOPPING_PREP]
+2016-06-04 16:07:23,551 [Thread-3] INFO  http11.Http11Protocol  - Pausing ProtocolHandler ["http-bio-8080"]
+2016-06-04 16:07:23,552 [Thread-3] DEBUG net.JIoEndpoint  - About to unlock socket for:localhost/127.0.0.1:8080
+2016-06-04 16:07:23,552 [Thread-3] DEBUG net.JIoEndpoint  - Socket unlock completed for:localhost/127.0.0.1:8080
+2016-06-04 16:07:23,552 [http-bio-8080-Acceptor-0] DEBUG threads.LimitLatch  - Counting down[http-bio-8080-Acceptor-0] latch=7
+2016-06-04 16:07:23,602 [Thread-3] INFO  core.StandardService  - Stopping service Tomcat
+2016-06-04 16:07:23,602 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [StandardService[Tomcat]] to [STOPPING]
+2016-06-04 16:07:23,602 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat]] to [STOPPING_PREP]
+2016-06-04 16:07:23,602 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat]] to [STOPPING]
+2016-06-04 16:07:23,602 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat]]] to [STOPPING_PREP]
+2016-06-04 16:07:23,602 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat]]] to [STOPPING]
+2016-06-04 16:07:23,602 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardEngineValve[Tomcat]] to [STOPPING_PREP]
+2016-06-04 16:07:23,602 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardEngineValve[Tomcat]] to [STOPPING]
+2016-06-04 16:07:23,602 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardEngineValve[Tomcat]] to [STOPPED]
+2016-06-04 16:07:23,602 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat]]] to [STOPPED]
+2016-06-04 16:07:23,608 [Tomcat-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [STOPPING_PREP]
+2016-06-04 16:07:23,608 [Tomcat-startStop-2] DEBUG connector.MapperListener  - Unregister host [localhost] at domain [null] for connector [Connector[HTTP/1.1-8080]]
+2016-06-04 16:07:23,608 [Tomcat-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [STOPPING]
+2016-06-04 16:07:23,608 [Tomcat-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [STOPPING_PREP]
+2016-06-04 16:07:23,608 [Tomcat-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [STOPPING]
+2016-06-04 16:07:23,609 [Tomcat-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.valves.ErrorReportValve[localhost]] to [STOPPING_PREP]
+2016-06-04 16:07:23,609 [Tomcat-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.valves.ErrorReportValve[localhost]] to [STOPPING]
+2016-06-04 16:07:23,609 [Tomcat-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.valves.ErrorReportValve[localhost]] to [STOPPED]
+2016-06-04 16:07:23,609 [Tomcat-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardHostValve[localhost]] to [STOPPING_PREP]
+2016-06-04 16:07:23,609 [Tomcat-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardHostValve[localhost]] to [STOPPING]
+2016-06-04 16:07:23,609 [Tomcat-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardHostValve[localhost]] to [STOPPED]
+2016-06-04 16:07:23,609 [Tomcat-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [STOPPED]
+2016-06-04 16:07:23,609 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos]] to [STOPPING_PREP]
+2016-06-04 16:07:23,609 [localhost-startStop-2] DEBUG connector.MapperListener  - Unregister Context [/FranchiseePos] for connector [Connector[HTTP/1.1-8080]]
+2016-06-04 16:07:23,609 [localhost-startStop-2] DEBUG connector.MapperListener  - Unregister Context [/FranchiseePos] for connector [Connector[HTTP/1.1-8080]]
+2016-06-04 16:07:23,609 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos]] to [STOPPING]
+2016-06-04 16:07:23,609 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[grails-errorhandler]] to [STOPPING_PREP]
+2016-06-04 16:07:23,609 [localhost-startStop-2] DEBUG connector.MapperListener  - Unregister Wrapper [grails-errorhandler] in Context [/FranchiseePos] for connector [Connector[HTTP/1.1-8080]]
+2016-06-04 16:07:23,609 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[grails-errorhandler]] to [STOPPING]
+2016-06-04 16:07:23,609 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[grails-errorhandler]]] to [STOPPING_PREP]
+2016-06-04 16:07:23,609 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[grails-errorhandler]]] to [STOPPING]
+2016-06-04 16:07:23,609 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[grails-errorhandler]] to [STOPPING_PREP]
+2016-06-04 16:07:23,609 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[grails-errorhandler]] to [STOPPING]
+2016-06-04 16:07:23,609 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[grails-errorhandler]] to [STOPPED]
+2016-06-04 16:07:23,609 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[grails-errorhandler]]] to [STOPPED]
+2016-06-04 16:07:23,609 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[grails-errorhandler]] to [STOPPED]
+2016-06-04 16:07:23,609 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[grails]] to [STOPPING_PREP]
+2016-06-04 16:07:23,609 [localhost-startStop-2] DEBUG connector.MapperListener  - Unregister Wrapper [grails] in Context [/FranchiseePos] for connector [Connector[HTTP/1.1-8080]]
+2016-06-04 16:07:23,610 [localhost-startStop-2] INFO  [localhost].[/FranchiseePos]  - Destroying Spring FrameworkServlet 'grails'
+2016-06-04 16:07:23,625 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.BrMstTab
+2016-06-04 16:07:23,626 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.BrMstTab
+2016-06-04 16:07:23,626 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.BrMstTab
+2016-06-04 16:07:23,626 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.CheckBounce
+2016-06-04 16:07:23,626 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.CheckBounce
+2016-06-04 16:07:23,626 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.CheckBounce
+2016-06-04 16:07:23,627 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.CustMst
+2016-06-04 16:07:23,627 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.CustMst
+2016-06-04 16:07:23,627 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.CustMst
+2016-06-04 16:07:23,627 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.DtBill
+2016-06-04 16:07:23,627 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.DtBill
+2016-06-04 16:07:23,627 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.DtBill
+2016-06-04 16:07:23,627 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.DtCashCard
+2016-06-04 16:07:23,627 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.DtCashCard
+2016-06-04 16:07:23,628 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.DtCashCard
+2016-06-04 16:07:23,628 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.DtCashPayment
+2016-06-04 16:07:23,628 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.DtCashPayment
+2016-06-04 16:07:23,628 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.DtCashPayment
+2016-06-04 16:07:23,628 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.DtChequeClear
+2016-06-04 16:07:23,628 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.DtChequeClear
+2016-06-04 16:07:23,628 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.DtChequeClear
+2016-06-04 16:07:23,629 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.DtCrossAdvSettle
+2016-06-04 16:07:23,629 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.DtCrossAdvSettle
+2016-06-04 16:07:23,629 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.DtCrossAdvSettle
+2016-06-04 16:07:23,629 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.DtEcsRef
+2016-06-04 16:07:23,629 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.DtEcsRef
+2016-06-04 16:07:23,629 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.DtEcsRef
+2016-06-04 16:07:23,629 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.DtGiftCard
+2016-06-04 16:07:23,629 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.DtGiftCard
+2016-06-04 16:07:23,629 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.DtGiftCard
+2016-06-04 16:07:23,630 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.DtRateDetail
+2016-06-04 16:07:23,630 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.DtRateDetail
+2016-06-04 16:07:23,630 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.DtRateDetail
+2016-06-04 16:07:23,630 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.DtSaleAdvPay
+2016-06-04 16:07:23,630 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.DtSaleAdvPay
+2016-06-04 16:07:23,630 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.DtSaleAdvPay
+2016-06-04 16:07:23,630 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.EmpMst
+2016-06-04 16:07:23,630 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.EmpMst
+2016-06-04 16:07:23,630 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.EmpMst
+2016-06-04 16:07:23,630 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.FndFlexValuesVl
+2016-06-04 16:07:23,631 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.FndFlexValuesVl
+2016-06-04 16:07:23,631 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.FndFlexValuesVl
+2016-06-04 16:07:23,632 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.GiftVoucherPayment
+2016-06-04 16:07:23,632 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.GiftVoucherPayment
+2016-06-04 16:07:23,632 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.GiftVoucherPayment
+2016-06-04 16:07:23,632 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.HdBill
+2016-06-04 16:07:23,632 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.HdBill
+2016-06-04 16:07:23,632 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.HdBill
+2016-06-04 16:07:23,633 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.HdCash
+2016-06-04 16:07:23,633 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.HdCash
+2016-06-04 16:07:23,633 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.HdCash
+2016-06-04 16:07:23,633 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.HdSaleAdvOrd
+2016-06-04 16:07:23,633 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.HdSaleAdvOrd
+2016-06-04 16:07:23,633 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.HdSaleAdvOrd
+2016-06-04 16:07:23,633 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.InDt
+2016-06-04 16:07:23,634 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.InDt
+2016-06-04 16:07:23,634 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.InDt
+2016-06-04 16:07:23,634 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.MkModule
+2016-06-04 16:07:23,634 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.MkModule
+2016-06-04 16:07:23,634 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.MkModule
+2016-06-04 16:07:23,635 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.MkModuleMenu
+2016-06-04 16:07:23,635 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.MkModuleMenu
+2016-06-04 16:07:23,635 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.MkModuleMenu
+2016-06-04 16:07:23,635 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.MkRoles
+2016-06-04 16:07:23,636 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.MkRoles
+2016-06-04 16:07:23,636 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.MkRoles
+2016-06-04 16:07:23,636 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.MkRolesComp
+2016-06-04 16:07:23,636 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.MkRolesComp
+2016-06-04 16:07:23,636 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.MkRolesComp
+2016-06-04 16:07:23,636 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.MkRolesMenu
+2016-06-04 16:07:23,636 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.MkRolesMenu
+2016-06-04 16:07:23,636 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.MkRolesMenu
+2016-06-04 16:07:23,636 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.MkUsers
+2016-06-04 16:07:23,636 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.MkUsers
+2016-06-04 16:07:23,636 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.MkUsers
+2016-06-04 16:07:23,636 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.MkUsersMkRoles
+2016-06-04 16:07:23,636 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.MkUsersMkRoles
+2016-06-04 16:07:23,636 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.MkUsersMkRoles
+2016-06-04 16:07:23,637 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.MstApprovalAuth
+2016-06-04 16:07:23,637 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.MstApprovalAuth
+2016-06-04 16:07:23,637 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.MstApprovalAuth
+2016-06-04 16:07:23,637 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.MstCode
+2016-06-04 16:07:23,637 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.MstCode
+2016-06-04 16:07:23,637 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.MstCode
+2016-06-04 16:07:23,637 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.MstCompany
+2016-06-04 16:07:23,637 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.MstCompany
+2016-06-04 16:07:23,637 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.MstCompany
+2016-06-04 16:07:23,637 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.MstDis
+2016-06-04 16:07:23,637 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.MstDis
+2016-06-04 16:07:23,637 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.MstDis
+2016-06-04 16:07:23,638 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.MstRateParameter
+2016-06-04 16:07:23,638 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.MstRateParameter
+2016-06-04 16:07:23,638 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.MstRateParameter
+2016-06-04 16:07:23,638 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.MstReason
+2016-06-04 16:07:23,638 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.MstReason
+2016-06-04 16:07:23,638 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.MstReason
+2016-06-04 16:07:23,638 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.MstRegion
+2016-06-04 16:07:23,638 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.MstRegion
+2016-06-04 16:07:23,638 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.MstRegion
+2016-06-04 16:07:23,638 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.MtlItemLocations
+2016-06-04 16:07:23,638 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.MtlItemLocations
+2016-06-04 16:07:23,638 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.MtlItemLocations
+2016-06-04 16:07:23,638 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.RegDt
+2016-06-04 16:07:23,639 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.RegDt
+2016-06-04 16:07:23,639 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.RegDt
+2016-06-04 16:07:23,639 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.SaleRetExp
+2016-06-04 16:07:23,639 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.SaleRetExp
+2016-06-04 16:07:23,639 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.SaleRetExp
+2016-06-04 16:07:23,639 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.SchemeMst
+2016-06-04 16:07:23,639 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.SchemeMst
+2016-06-04 16:07:23,639 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.SchemeMst
+2016-06-04 16:07:23,639 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.TbzPosItemcodeLabelV
+2016-06-04 16:07:23,639 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.TbzPosItemcodeLabelV
+2016-06-04 16:07:23,639 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.TbzPosItemcodeLabelV
+2016-06-04 16:07:23,639 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.TbzPosReciptMethodsV
+2016-06-04 16:07:23,639 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.TbzPosReciptMethodsV
+2016-06-04 16:07:23,639 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.TbzPosReciptMethodsV
+2016-06-04 16:07:23,640 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.TbzPosSalespersonVOrig
+2016-06-04 16:07:23,640 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.TbzPosSalespersonVOrig
+2016-06-04 16:07:23,640 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.TbzPosSalespersonVOrig
+2016-06-04 16:07:23,640 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.UserFinAccountYear
+2016-06-04 16:07:23,640 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.UserFinAccountYear
+2016-06-04 16:07:23,640 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.UserFinAccountYear
+2016-06-04 16:07:23,640 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.XxposCashReceipts
+2016-06-04 16:07:23,640 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.XxposCashReceipts
+2016-06-04 16:07:23,641 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.XxposCashReceipts
+2016-06-04 16:07:23,641 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.XxposOtherDiscount
+2016-06-04 16:07:23,641 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.XxposOtherDiscount
+2016-06-04 16:07:23,641 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.XxposOtherDiscount
+2016-06-04 16:07:23,641 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.XxposRegionMaster
+2016-06-04 16:07:23,641 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.XxposRegionMaster
+2016-06-04 16:07:23,641 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.XxposRegionMaster
+2016-06-04 16:07:23,641 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.XxtbzComponentDetailVNew
+2016-06-04 16:07:23,641 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.XxtbzComponentDetailVNew
+2016-06-04 16:07:23,641 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.XxtbzComponentDetailVNew
+2016-06-04 16:07:23,641 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.XxtbzItemMaster
+2016-06-04 16:07:23,642 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.XxtbzItemMaster
+2016-06-04 16:07:23,642 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.XxtbzItemMaster
+2016-06-04 16:07:23,642 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in com.tbz.franchisee.XxtbzMiscCashAnalysis
+2016-06-04 16:07:23,642 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in com.tbz.franchisee.XxtbzMiscCashAnalysis
+2016-06-04 16:07:23,642 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in com.tbz.franchisee.XxtbzMiscCashAnalysis
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[grails]] to [STOPPING]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[grails]]] to [STOPPING_PREP]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[grails]]] to [STOPPING]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[grails]] to [STOPPING_PREP]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[grails]] to [STOPPING]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[grails]] to [STOPPED]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[grails]]] to [STOPPED]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[grails]] to [STOPPED]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[jsp]] to [STOPPING_PREP]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG connector.MapperListener  - Unregister Wrapper [jsp] in Context [/FranchiseePos] for connector [Connector[HTTP/1.1-8080]]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG servlet.JspServlet  - JspServlet.destroy()
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[jsp]] to [STOPPING]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[jsp]]] to [STOPPING_PREP]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[jsp]]] to [STOPPING]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[jsp]] to [STOPPING_PREP]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[jsp]] to [STOPPING]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[jsp]] to [STOPPED]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[jsp]]] to [STOPPED]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[jsp]] to [STOPPED]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[default]] to [STOPPING_PREP]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG connector.MapperListener  - Unregister Wrapper [default] in Context [/FranchiseePos] for connector [Connector[HTTP/1.1-8080]]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[default]] to [STOPPING]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[default]]] to [STOPPING_PREP]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[default]]] to [STOPPING]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[default]] to [STOPPING_PREP]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[default]] to [STOPPING]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[default]] to [STOPPED]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[default]]] to [STOPPED]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[default]] to [STOPPED]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[H2Console]] to [STOPPING_PREP]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG connector.MapperListener  - Unregister Wrapper [H2Console] in Context [/FranchiseePos] for connector [Connector[HTTP/1.1-8080]]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[H2Console]] to [STOPPING]
+2016-06-04 16:07:23,690 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[H2Console]]] to [STOPPING_PREP]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[H2Console]]] to [STOPPING]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[H2Console]] to [STOPPING_PREP]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[H2Console]] to [STOPPING]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[H2Console]] to [STOPPED]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[H2Console]]] to [STOPPED]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[H2Console]] to [STOPPED]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[gsp]] to [STOPPING_PREP]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG connector.MapperListener  - Unregister Wrapper [gsp] in Context [/FranchiseePos] for connector [Connector[HTTP/1.1-8080]]
+2016-06-04 16:07:23,691 [localhost-startStop-2] INFO  [localhost].[/FranchiseePos]  - Destroying Spring FrameworkServlet 'gsp'
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[gsp]] to [STOPPING]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[gsp]]] to [STOPPING_PREP]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[gsp]]] to [STOPPING]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[gsp]] to [STOPPING_PREP]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[gsp]] to [STOPPING]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[gsp]] to [STOPPED]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[gsp]]] to [STOPPED]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[gsp]] to [STOPPED]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  - Stopping filters
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  -  Stopping filter 'grailsWebRequest'
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG core.ApplicationFilterConfig  - JMX de-registration complete for filter of type [org.codehaus.groovy.grails.web.servlet.mvc.GrailsWebRequestFilter] and name [grailsWebRequest]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  -  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG core.ApplicationFilterConfig  - JMX de-registration complete for filter of type [org.apache.tomcat.websocket.server.WsFilter] and name [Tomcat WebSocket (JSR356) Filter]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  -  Stopping filter 'urlMapping'
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG core.ApplicationFilterConfig  - JMX de-registration complete for filter of type [org.codehaus.groovy.grails.web.mapping.filter.UrlMappingsFilter] and name [urlMapping]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  -  Stopping filter 'hiddenHttpMethod'
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG core.ApplicationFilterConfig  - JMX de-registration complete for filter of type [org.codehaus.groovy.grails.web.filters.HiddenHttpMethodFilter] and name [hiddenHttpMethod]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  -  Stopping filter 'charEncodingFilter'
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG core.ApplicationFilterConfig  - JMX de-registration complete for filter of type [org.springframework.web.filter.DelegatingFilterProxy] and name [charEncodingFilter]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  -  Stopping filter 'AssetPipelineFilter'
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG core.ApplicationFilterConfig  - JMX de-registration complete for filter of type [asset.pipeline.grails.AssetPipelineFilter] and name [AssetPipelineFilter]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  -  Stopping filter 'grailsCacheFilter'
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG core.ApplicationFilterConfig  - JMX de-registration complete for filter of type [org.springframework.web.filter.DelegatingFilterProxy] and name [grailsCacheFilter]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.session.StandardManager[/FranchiseePos]] to [STOPPING_PREP]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG session.StandardManager  - Stopping
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.session.StandardManager[/FranchiseePos]] to [STOPPING]
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG session.StandardManager  - Unloading persisted sessions
+2016-06-04 16:07:23,691 [localhost-startStop-2] DEBUG session.StandardManager  - Saving persisted sessions to SESSIONS.ser
+2016-06-04 16:07:23,729 [localhost-startStop-2] DEBUG session.StandardManager  - Unloading 2 sessions
+2016-06-04 16:07:23,731 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  - writeObject() storing session 56763D186EF6F71E577EDF7EED97D805
+2016-06-04 16:07:23,760 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  -   storing attribute 'org.codehaus.groovy.grails.FLASH_SCOPE' with value 'org.codehaus.groovy.grails.web.servlet.GrailsFlashScope@6ea0f6'
+2016-06-04 16:07:23,760 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  - writeObject() storing session E140315AB0CE8810F2E44FF70890D3A1
+2016-06-04 16:07:23,761 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  -   storing attribute 'userId' with value '01'
+2016-06-04 16:07:23,762 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  -   storing attribute 'org.codehaus.groovy.grails.FLASH_SCOPE' with value 'org.codehaus.groovy.grails.web.servlet.GrailsFlashScope@1a32600'
+2016-06-04 16:07:23,768 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  -   storing attribute 'menuDetailsMap' with value '{0232=[User Wise Sales Report, /reports/userWiseSalesReport], 021413=[KP Sale and Count, /reports/kpSaleCountReport], 021412=[KP Unsettled Report, /reports/kpUnSettleReport], 021411=[ECS Status Report, /reports/ecsStatusReport], 021410=[KP Settle, /reports/kpSettleReport], 0227=[Advance Transfer Report, /reports/advTransferReport], 0225=[Error Log Reports, /reports/errorLogReport], 0223=[Sales MIS Reports, /reports/misReport], 0220=[Cash Counter, /reports/cashCounterReport], 0322=[Cash Analysis Data Entry, /xxtbzMiscCashAnalysis/index], 0324=[Ecs Date Entry, /ecsDateEntry/index], 0229=[User Wise Bill Count, /reports/uwbcReport], 0228=[Sales PAN No Details, /reports/salesPanDtlsReport], 0210=[Purchase Checklist, /reports/purchageChkListReport], 02090101=[Itemwise/Customer Wise, /reports/salesChkListReport], 02090102=[Branch PersonWise, null], 0212=[Consolidate Sales, /reports/consolidateSalesReport], 0211=[Sales Return Checklist, /reports/salesReturnCheckListReport], 02090103=[Sales PersonWise, null], 0214=[Kalpvruksha, null], 0213=[Check Clearance, /reports/chkClrnsReport], 0216=[Cash Back  Report, /reports/cashBackReport], 0310=[Scanning Report, /reports/scanningReport], 0215=[Check to be Deposit Report, /reports/chequeToBeDepositReport], 0311=[SR Inventorize, sr_inv.fmx], 0218=[Rate Details, /reports/rateDetailsReport], 0217=[Advance Balance Report, /reports/advanceBalanceReport], 0219=[Miscellaneous Receipts Report, /reports/miscellaneousRecieptsReport], 0107=[Kalpvruksha (Settle), kp_sett_V14.fmx], 0105=[OG Purchase Bill, p_bill_pos_V42_fr.fmx], 0106=[Kalpvruksha Scheme, /schemeMst/index], 0103=[Sales Order Advance (Settle), pos_adv_settle_V13.fmx], 0104=[Sales Invoice, pos_Sales_TCS_V71_fr_v3.fmx], 0411=[Rate Parameter, /mstRateParameter/index], 0102=[Sales Order Advance (Payment), /mkUsers/index], 0412=[Rate Master, /dtRateDetail/index], 0413=[SR Days Extend, /saleRetExp/index], 0414=[Increase Other Discount, /xxposOtherDiscount/index], 0201=[Cash Analysis, /reports/cashAnalysisReport], 0304=[Check Clearance, /dtChequeClear/index], 0120=[KP Close, KP_CLOSE_v3.fmx], 0205=[Advance Active, /reports/advanceActiveReport], 0204=[Sales Checklist With Target, /reports/salesCheckListTargetReport], 0203=[Gift Voucher Active, /reports/giftVoucherActiveReport], 021401=[Sales Report, POS_Sales_Report_v2.fmx], 020901=[Detailed, null], 021402=[KP Count, /reports/kpCountReport], 0202=[Katan/Wadhara, /reports/katanWadharaReport], 0209=[Sales Checklist, /reports/salesChkListReport], 021403=[Employee Performance, /reports/employeePerformanceReport], 04=[Master, null], 0208=[Traveller/Foreign Currency, /reports/travellerForeignCurrencyReport], 021404=[Paymode Wise Details, /reports/kpPayModeWiseDetailReport], 021405=[Branchwise Payment Detail, /reports/branchwisePaymentDetailReport], 0207=[Credit Card, /reports/creditCardReport], 0309=[ECS Reconciliation, /ecsReconcillation/index], 021406=[Branchwise Summary, /reports/branchWiseSummaryReport], 0206=[Advance Settle, /reports/advanceSettleReport], 021408=[Employee Incentive Report, /reports/employeeIncentiveReport], 01=[Sales, null], 0308=[Miscellaneous Receipts, Pos_check_bounce_V19.fmx], 02=[Reports, null], 021409=[MonthWise Pending Installments, /reports/monthwisePendingInstallmentReport], 03=[Definition, null], 0409=[Discount Id's, /mstDis/index], 0110=[Jan Se Jama, /xxposCashReceipts/index], 0402=[City Mapping, /mstRegion/index], 0401=[Other Parameter, /mstCode/index]}'
+2016-06-04 16:07:23,769 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  -   storing attribute 'counterId' with value '1'
+2016-06-04 16:07:23,769 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  -   storing attribute 'moduleValue' with value '04'
+2016-06-04 16:07:23,770 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  -   storing attribute 'menuCodeList' with value '[0104, 0202, 0202, 02, 02, 02, 0103, 0210, 0207, 04, 0401, 0402, 0409, 0411, 0412, 0413, 0414, 0414, 0304, 021401, 021402, 021403, 021404, 021413, 0232, 0104, 0202, 0202, 02, 02, 02, 0103, 0210, 0207, 04, 0401, 0402, 0409, 0411, 0412, 0413, 0414, 0414, 0304, 021401, 021402, 021403, 021404, 021405, 021406, 021408, 021409, 021410, 0223, 0225, 0227, 0228, 0229, 0201, 0201, 0204, 0206, 0211, 01, 020901, 02090101, 02090102, 02090103, 0212, 0107, 03, 0308, 0309, 0310, 0311, 0106, 0105, 0110, 0322, 0324, 021411, 021412, 0120, 0213, 0214, 0214, 0215, 0216, 0217, 0218, 0219, 0220, 0203, 0205, 0208, 0209, 0209, 0102, 021413, 0232, 021405, 021406, 021408, 021409, 021410, 0223, 0225, 0227, 0228, 0229, 0201, 0201, 0204, 0206, 0211, 01, 020901, 02090101, 02090102, 02090103, 0212, 0107, 03, 0308, 0309, 0310, 0311, 0106, 0105, 0110, 0322, 0324, 021411, 021412, 0120, 0213, 0214, 0214, 0215, 0216, 0217, 0218, 0219, 0220, 0203, 0205, 0208, 0209, 0209, 0102]'
+2016-06-04 16:07:23,770 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  -   storing attribute 'companyCode' with value '02'
+2016-06-04 16:07:23,770 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  -   storing attribute 'brCode' with value '98'
+2016-06-04 16:07:23,775 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  -   storing attribute 'sessionUser' with value 'com.tbz.franchisee.MkUsers : (unsaved)'
+2016-06-04 16:07:23,775 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  -   storing attribute 'machineNo' with value '1'
+2016-06-04 16:07:23,775 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  -   storing attribute 'loginYear' with value '2012-2013'
+2016-06-04 16:07:23,775 [localhost-startStop-2] DEBUG [localhost].[/FranchiseePos]  -   storing attribute 'roleId' with value '01'
+2016-06-04 16:07:23,775 [localhost-startStop-2] DEBUG session.StandardManager  - Expiring 2 persisted sessions
+2016-06-04 16:07:23,776 [localhost-startStop-2] DEBUG session.StandardManager  - Unloading complete
+2016-06-04 16:07:23,776 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.session.StandardManager[/FranchiseePos]] to [STOPPED]
+2016-06-04 16:07:23,776 [localhost-startStop-2] DEBUG core.StandardContext  - Sending application stop events
+2016-06-04 16:07:23,778 [localhost-startStop-2] DEBUG core.StandardContext  - Processing standard container shutdown
+2016-06-04 16:07:23,778 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.deploy.NamingResources@142771b] to [STOPPING_PREP]
+2016-06-04 16:07:23,778 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.deploy.NamingResources@142771b] to [STOPPING]
+2016-06-04 16:07:23,779 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.deploy.NamingResources@142771b] to [STOPPED]
+2016-06-04 16:07:23,779 [localhost-startStop-2] DEBUG startup.ContextConfig  - ContextConfig: Processing STOP
+2016-06-04 16:07:23,779 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[grails-errorhandler]] to [DESTROYING]
+2016-06-04 16:07:23,779 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[grails-errorhandler]]] to [DESTROYING]
+2016-06-04 16:07:23,779 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[Container is null]] to [DESTROYING]
+2016-06-04 16:07:23,779 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[Container is null]] to [DESTROYED]
+2016-06-04 16:07:23,779 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[grails-errorhandler]]] to [DESTROYED]
+2016-06-04 16:07:23,779 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[grails-errorhandler]] to [DESTROYED]
+2016-06-04 16:07:23,779 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[grails]] to [DESTROYING]
+2016-06-04 16:07:23,779 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[grails]]] to [DESTROYING]
+2016-06-04 16:07:23,779 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[Container is null]] to [DESTROYING]
+2016-06-04 16:07:23,779 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[Container is null]] to [DESTROYED]
+2016-06-04 16:07:23,779 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[grails]]] to [DESTROYED]
+2016-06-04 16:07:23,780 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[grails]] to [DESTROYED]
+2016-06-04 16:07:23,780 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[jsp]] to [DESTROYING]
+2016-06-04 16:07:23,780 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[jsp]]] to [DESTROYING]
+2016-06-04 16:07:23,780 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[Container is null]] to [DESTROYING]
+2016-06-04 16:07:23,780 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[Container is null]] to [DESTROYED]
+2016-06-04 16:07:23,780 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[jsp]]] to [DESTROYED]
+2016-06-04 16:07:23,780 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[jsp]] to [DESTROYED]
+2016-06-04 16:07:23,780 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[default]] to [DESTROYING]
+2016-06-04 16:07:23,780 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[default]]] to [DESTROYING]
+2016-06-04 16:07:23,780 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[Container is null]] to [DESTROYING]
+2016-06-04 16:07:23,780 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[Container is null]] to [DESTROYED]
+2016-06-04 16:07:23,780 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[default]]] to [DESTROYED]
+2016-06-04 16:07:23,780 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[default]] to [DESTROYED]
+2016-06-04 16:07:23,780 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[H2Console]] to [DESTROYING]
+2016-06-04 16:07:23,780 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[H2Console]]] to [DESTROYING]
+2016-06-04 16:07:23,780 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[Container is null]] to [DESTROYING]
+2016-06-04 16:07:23,780 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[Container is null]] to [DESTROYED]
+2016-06-04 16:07:23,780 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[H2Console]]] to [DESTROYED]
+2016-06-04 16:07:23,781 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[H2Console]] to [DESTROYED]
+2016-06-04 16:07:23,781 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[gsp]] to [DESTROYING]
+2016-06-04 16:07:23,781 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[gsp]]] to [DESTROYING]
+2016-06-04 16:07:23,781 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[Container is null]] to [DESTROYING]
+2016-06-04 16:07:23,781 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardWrapperValve[Container is null]] to [DESTROYED]
+2016-06-04 16:07:23,781 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[gsp]]] to [DESTROYED]
+2016-06-04 16:07:23,781 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos].StandardWrapper[gsp]] to [DESTROYED]
+2016-06-04 16:07:23,782 [localhost-startStop-2] DEBUG mapper.Mapper  - Removing wrapper from Context [null] with path [/dbconsole/*]
+2016-06-04 16:07:23,782 [localhost-startStop-2] DEBUG mapper.Mapper  - Removing wrapper from Context [null] with path [/grails-errorhandler]
+2016-06-04 16:07:23,782 [localhost-startStop-2] DEBUG mapper.Mapper  - Removing wrapper from Context [null] with path [*.jsp]
+2016-06-04 16:07:23,782 [localhost-startStop-2] DEBUG mapper.Mapper  - Removing wrapper from Context [null] with path [*.gsp]
+2016-06-04 16:07:23,782 [localhost-startStop-2] DEBUG mapper.Mapper  - Removing wrapper from Context [null] with path [*.jspx]
+2016-06-04 16:07:23,782 [localhost-startStop-2] DEBUG mapper.Mapper  - Removing wrapper from Context [null] with path [*.dispatch]
+2016-06-04 16:07:23,782 [localhost-startStop-2] DEBUG mapper.Mapper  - Removing wrapper from Context [null] with path [/]
+2016-06-04 16:07:23,782 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos]]] to [STOPPING_PREP]
+2016-06-04 16:07:23,782 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos]]] to [STOPPING]
+2016-06-04 16:07:23,782 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardContextValve[/FranchiseePos]] to [STOPPING_PREP]
+2016-06-04 16:07:23,782 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardContextValve[/FranchiseePos]] to [STOPPING]
+2016-06-04 16:07:23,782 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardContextValve[/FranchiseePos]] to [STOPPED]
+2016-06-04 16:07:23,782 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos]]] to [STOPPED]
+2016-06-04 16:07:23,783 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.grails.plugins.tomcat.TomcatLoader@99946a] to [STOPPING_PREP]
+2016-06-04 16:07:23,784 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.grails.plugins.tomcat.TomcatLoader@99946a] to [STOPPING]
+2016-06-04 16:07:23,784 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [org.grails.plugins.tomcat.TomcatLoader@99946a] to [STOPPED]
+2016-06-04 16:07:23,785 [localhost-startStop-2] DEBUG core.StandardContext  - resetContext Tomcat:j2eeType=WebModule,name=//localhost/FranchiseePos,J2EEApplication=none,J2EEServer=none
+2016-06-04 16:07:23,785 [localhost-startStop-2] DEBUG core.StandardContext  - Stopping complete
+2016-06-04 16:07:23,785 [localhost-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos]] to [STOPPED]
+2016-06-04 16:07:23,785 [Tomcat-startStop-2] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [STOPPED]
+2016-06-04 16:07:23,785 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [Realm[Simple]] to [STOPPING_PREP]
+2016-06-04 16:07:23,785 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [Realm[Simple]] to [STOPPING]
+2016-06-04 16:07:23,785 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [Realm[Simple]] to [STOPPED]
+2016-06-04 16:07:23,785 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat]] to [STOPPED]
+2016-06-04 16:07:23,785 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [Connector[HTTP/1.1-8080]] to [STOPPING_PREP]
+2016-06-04 16:07:23,785 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [Connector[HTTP/1.1-8080]] to [STOPPING]
+2016-06-04 16:07:23,786 [Thread-3] INFO  http11.Http11Protocol  - Stopping ProtocolHandler ["http-bio-8080"]
+2016-06-04 16:07:23,786 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.connector.MapperListener@203e70] to [STOPPING_PREP]
+2016-06-04 16:07:23,786 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.connector.MapperListener@203e70] to [STOPPING]
+2016-06-04 16:07:23,786 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.connector.MapperListener@203e70] to [STOPPED]
+2016-06-04 16:07:23,786 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [Connector[HTTP/1.1-8080]] to [STOPPED]
+2016-06-04 16:07:23,786 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [StandardService[Tomcat]] to [STOPPED]
+2016-06-04 16:07:23,786 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.deploy.NamingResources@e34aed] to [STOPPING_PREP]
+2016-06-04 16:07:23,786 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.deploy.NamingResources@e34aed] to [STOPPING]
+2016-06-04 16:07:23,786 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.deploy.NamingResources@e34aed] to [STOPPED]
+2016-06-04 16:07:23,786 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [StandardServer[-1]] to [STOPPED]
+2016-06-04 16:07:23,786 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [StandardServer[-1]] to [DESTROYING]
+2016-06-04 16:07:23,786 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [StandardService[Tomcat]] to [DESTROYING]
+2016-06-04 16:07:23,786 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [Connector[HTTP/1.1-8080]] to [DESTROYING]
+2016-06-04 16:07:23,786 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.connector.MapperListener@203e70] to [DESTROYING]
+2016-06-04 16:07:23,787 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.connector.MapperListener@203e70] to [DESTROYED]
+2016-06-04 16:07:23,787 [Thread-3] INFO  http11.Http11Protocol  - Destroying ProtocolHandler ["http-bio-8080"]
+2016-06-04 16:07:23,787 [Thread-3] DEBUG http11.Http11Protocol  - Unregister Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest2
+2016-06-04 16:07:23,787 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [Connector[HTTP/1.1-8080]] to [DESTROYED]
+2016-06-04 16:07:23,787 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat]] to [DESTROYING]
+2016-06-04 16:07:23,787 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [Realm[Simple]] to [DESTROYING]
+2016-06-04 16:07:23,787 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [Realm[Simple]] to [DESTROYED]
+2016-06-04 16:07:23,787 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat]]] to [DESTROYING]
+2016-06-04 16:07:23,787 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardEngineValve[Container is null]] to [DESTROYING]
+2016-06-04 16:07:23,788 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardEngineValve[Container is null]] to [DESTROYED]
+2016-06-04 16:07:23,788 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat]]] to [DESTROYED]
+2016-06-04 16:07:23,788 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [DESTROYING]
+2016-06-04 16:07:23,788 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [DESTROYING]
+2016-06-04 16:07:23,788 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.valves.ErrorReportValve[Container is null]] to [DESTROYING]
+2016-06-04 16:07:23,788 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.valves.ErrorReportValve[Container is null]] to [DESTROYED]
+2016-06-04 16:07:23,788 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardHostValve[Container is null]] to [DESTROYING]
+2016-06-04 16:07:23,788 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardHostValve[Container is null]] to [DESTROYED]
+2016-06-04 16:07:23,788 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [DESTROYED]
+2016-06-04 16:07:23,788 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos]] to [DESTROYING]
+2016-06-04 16:07:23,788 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.deploy.NamingResources@142771b] to [DESTROYING]
+2016-06-04 16:07:23,788 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.deploy.NamingResources@142771b] to [DESTROYED]
+2016-06-04 16:07:23,788 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.session.StandardManager[/FranchiseePos]] to [DESTROYING]
+2016-06-04 16:07:23,788 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.session.StandardManager[/FranchiseePos]] to [DESTROYED]
+2016-06-04 16:07:23,788 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.grails.plugins.tomcat.TomcatLoader@99946a] to [DESTROYING]
+2016-06-04 16:07:23,788 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.grails.plugins.tomcat.TomcatLoader@99946a] to [DESTROYED]
+2016-06-04 16:07:23,788 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos]]] to [DESTROYING]
+2016-06-04 16:07:23,788 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardContextValve[Container is null]] to [DESTROYING]
+2016-06-04 16:07:23,788 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardContextValve[Container is null]] to [DESTROYED]
+2016-06-04 16:07:23,788 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos]]] to [DESTROYED]
+2016-06-04 16:07:23,789 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/FranchiseePos]] to [DESTROYED]
+2016-06-04 16:07:23,789 [Thread-3] DEBUG startup.ContextConfig  - ContextConfig: Destroying
+2016-06-04 16:07:23,789 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [DESTROYED]
+2016-06-04 16:07:23,789 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat]] to [DESTROYED]
+2016-06-04 16:07:23,789 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [StandardService[Tomcat]] to [DESTROYED]
+2016-06-04 16:07:23,789 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.deploy.NamingResources@e34aed] to [DESTROYING]
+2016-06-04 16:07:23,789 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.deploy.NamingResources@e34aed] to [DESTROYED]
+2016-06-04 16:07:23,789 [Thread-3] DEBUG util.LifecycleBase  - Setting state for [StandardServer[-1]] to [DESTROYED]

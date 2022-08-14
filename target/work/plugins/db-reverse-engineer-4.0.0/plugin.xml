@@ -1,0 +1,9 @@
+<plugin name='db-reverse-engineer' version='4.0.0' grailsVersion='2.3.0 &gt; *'>
+  <author>Burt Beckwith</author>
+  <authorEmail>burt@burtbeckwith.com</authorEmail>
+  <title>Grails Database Reverse Engineering Plugin</title>
+  <description>Reverse-engineers a database to Grails domain classes.</description>
+  <documentation>http://grails-plugins.github.io/grails-db-reverse-engineer/</documentation>
+  <type>DbReverseEngineerGrailsPlugin</type>
+  <resources />
+</plugin>
